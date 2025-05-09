@@ -1,7 +1,5 @@
 # Streamlit-Projects
 This repository contains a collection of simple and interactive Streamlit applications built using Python and machine learning libraries. 
-
-
 Each project is self-contained and showcases how data science workflows can be turned into usable web apps.
 
 ## 📁 Projects Included
