@@ -1,4 +1,0 @@
-streamlit
-joblib
-pandas  # if you're using it
-scikit-learn  # if your model uses it
