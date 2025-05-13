@@ -2,9 +2,14 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
 # Load model
-model = joblib.load('/Users/titassaha/code/github/rain_model.pkl')
+# Get the full path to the model file relative to this script
+model_path = os.path.join(os.path.dirname(__file__), "rain_model.pkl")
+
+# Load the model
+model = joblib.load(model_path)
 
 st.title("Rain Prediction App 🌧️☀️")
 
