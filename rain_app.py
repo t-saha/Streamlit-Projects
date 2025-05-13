@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load('/Users/titassaha/code/rain_model.pkl')
+model = joblib.load('/Users/titassaha/code/github/rain_model.pkl')
 
 st.title("Rain Prediction App 🌧️☀️")
 
